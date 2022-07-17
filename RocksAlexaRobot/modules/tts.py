@@ -1,26 +1,13 @@
-# A Powerful Music And Management Bot
-# Property Of Rocks Indian Largest Chatting Group
-# Without Credit (Mother Fucker)
-# Rocks © @Dr_Asad_Ali © Rocks
-# Owner Asad + Harshit
-# Roses are red, Violets are blue, A face like yours, Belongs in a zoo
-
-
-
-import html
-import re
+import html, random, time
 from datetime import datetime
 from typing import List
-import random
 from telegram import ChatAction
 from gtts import gTTS
-import time
 from telegram import ChatAction
 from feedparser import parse
-import json
 import urllib.request
 import urllib.parse
-import requests
+import requests, json, re
 from RocksAlexaRobot import (DEV_USERS, OWNER_ID, DRAGONS, SUPPORT_CHAT, DEMONS,
                           TIGERS, WOLVES, dispatcher,updater)
 from RocksAlexaRobot.__main__ import STATS, TOKEN, USER_INFO
@@ -29,7 +16,6 @@ from RocksAlexaRobot.modules.helper_funcs.filters import CustomFilters
 from RocksAlexaRobot.modules.helper_funcs.chat_status import sudo_plus, user_admin
 from telegram import MessageEntity, ParseMode, Update, constants
 from telegram.error import BadRequest
-from emoji import UNICODE_EMOJI
 from telegram.ext import CallbackContext, CommandHandler, Filters, run_async
 from telegram.utils.helpers import mention_html
 
